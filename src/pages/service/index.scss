@@ -1,0 +1,16 @@
+@import "~taro-ui/dist/style/components/flex.scss";
+
+.service-index {
+  .avatar-wrapper {
+    display: inline-block;
+  }
+
+  .body {
+    background-color: white;
+  }
+
+  .selection-title {
+    padding-left: 16px;
+    border-left: 6px solid salmon;
+  }
+}

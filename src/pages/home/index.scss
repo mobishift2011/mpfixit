@@ -1,0 +1,16 @@
+@import "~taro-ui/dist/style/components/tag.scss";
+
+.home {
+  .menu-item {
+    .at-list__item-content {
+      overflow: inherit !important;
+    }
+  }
+
+  .service-level-tag {
+    display: inline-block;
+    color: #fff;
+    background-color:rgb(255, 73, 73);
+    margin-top: -10px;
+  }
+}

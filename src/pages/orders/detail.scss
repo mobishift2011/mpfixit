@@ -1,0 +1,21 @@
+.order-detail {
+  .at-steps__title {
+    color: inherit;
+  }
+
+  .at-steps__desc {
+    color: inherit;
+  }
+
+  .at-steps__item--inactive .at-steps__circular {
+    background-color: #dcdee2;
+  }
+
+  .list-item-appointed {
+    background: transparent;
+  }
+
+  .order-progress {
+    background-color: #e8eaec // rgb(77, 83, 102)
+  }
+}

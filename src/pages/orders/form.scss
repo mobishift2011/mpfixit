@@ -1,0 +1,20 @@
+@import "~taro-ui/dist/style/components/flex.scss";
+
+.order-form {
+  .order-category {
+    .at-list__item-content {
+      padding-left: 24rpx;
+      border-left: 8rpx solid #ed4014;
+    }
+  }
+
+  .picker-list-item {
+    padding-right: 48rpx;
+
+    .dt-picker-value {
+      padding: 6rpx 12rpx;
+      background: #e8eaec;
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,446 @@
+@import "~taro-ui/dist/style/components/accordion.scss";
+@import "~taro-ui/dist/style/components/avatar.scss";
+@import "~taro-ui/dist/style/components/button.scss";
+@import "~taro-ui/dist/style/components/card.scss";
+@import "~taro-ui/dist/style/components/divider.scss";
+@import "~taro-ui/dist/style/components/drawer.scss";
+@import "~taro-ui/dist/style/components/flex.scss";
+@import "~taro-ui/dist/style/components/float-layout.scss";
+@import "~taro-ui/dist/style/components/icon.scss";
+@import "~taro-ui/dist/style/components/indexes.scss";
+@import "~taro-ui/dist/style/components/input.scss";
+@import "~taro-ui/dist/style/components/list.scss";
+@import "~taro-ui/dist/style/components/rate.scss";
+@import "~taro-ui/dist/style/components/steps.scss";
+@import "~taro-ui/dist/style/components/textarea.scss";
+
+// .at-button--primary {
+//   color: #FFF;
+//   border: 1PX solid #17233d;
+//   background: #17233d;
+// }
+// .at-button--secondary {
+//   color: #17233d;
+//   border: 1PX solid #17233d;
+//   background-color: #FFF;
+// }
+
+page {
+  background-color: #f8f8f8;
+}
+
+.m-a {
+  margin: 1rem !important;
+}
+
+.m-t {
+  margin-top: 1rem !important;
+}
+
+.m-r {
+  margin-right: 1rem !important;
+}
+
+.m-b {
+  margin-bottom: 1rem !important;
+}
+
+.m-l {
+  margin-left: 1rem !important;
+}
+
+.m-l-0 {
+margin-left: 0 !important;
+}
+
+.m-x {
+  margin-right: 1rem !important;
+  margin-left: 1rem !important;
+}
+
+.m-y {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+
+.m-a-lg {
+  margin: 3rem !important;
+}
+
+.m-t-lg {
+  margin-top: 3rem !important;
+}
+
+.m-r-lg {
+  margin-right: 3rem !important;
+}
+
+.m-b-lg {
+  margin-bottom: 3rem !important;
+}
+
+.m-l-lg {
+  margin-left: 3rem !important;
+}
+
+.m-x-lg {
+  margin-right: 3rem !important;
+  margin-left: 3rem !important;
+}
+
+.m-y-lg {
+  margin-top: 3rem !important;
+  margin-bottom: 3rem !important;
+}
+
+.m-a-md {
+  margin: 1.5rem !important;
+}
+
+.m-t-md {
+  margin-top: 1.5rem !important;
+}
+
+.m-r-md {
+  margin-right: 1.5rem !important;
+}
+
+.m-b-md {
+  margin-bottom: 1.5rem !important;
+}
+
+.m-l-md {
+  margin-left: 1.5rem !important;
+}
+
+.m-x-md {
+  margin-right: 1.5rem !important;
+  margin-left: 1.5rem !important;
+}
+
+.m-y-md {
+  margin-top: 1.5rem !important;
+  margin-bottom: 1.5rem !important;
+}
+
+.m-a-sm {
+  margin: 0.5rem !important;
+}
+
+.m-t-sm {
+  margin-top: 0.5rem !important;
+}
+
+.m-r-sm {
+  margin-right: 0.5rem !important;
+}
+
+.m-b-sm {
+  margin-bottom: 0.5rem !important;
+}
+
+.m-l-sm {
+  margin-left: 0.5rem !important;
+}
+
+.m-x-sm {
+  margin-right: 0.5rem !important;
+  margin-left: 0.5rem !important;
+}
+
+.m-y-sm {
+  margin-top: 0.5rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.m-a-xs {
+  margin: 0.25rem !important;
+}
+
+.m-t-xs {
+  margin-top: 0.25rem !important;
+}
+
+.m-r-xs {
+  margin-right: 0.25rem !important;
+}
+
+.m-b-xs {
+  margin-bottom: 0.25rem !important;
+}
+
+.m-l-xs {
+  margin-left: 0.25rem !important;
+}
+
+.m-x-xs {
+  margin-right: 0.25rem !important;
+  margin-left: 0.25rem !important;
+}
+
+.m-y-xs {
+  margin-top: 0.25rem !important;
+  margin-bottom: 0.25rem !important;
+}
+
+.p-a {
+  padding: 1rem !important;
+}
+
+.p-t {
+  padding-top: 1rem !important;
+}
+
+.p-r {
+  padding-right: 1rem !important;
+}
+
+.p-b {
+  padding-bottom: 1rem !important;
+}
+
+.p-l {
+  padding-left: 1rem !important;
+}
+
+.p-x {
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
+}
+
+.p-y {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+
+.p-a-lg {
+  padding: 3rem !important;
+}
+
+.p-t-lg {
+  padding-top: 3rem !important;
+}
+
+.p-r-lg {
+  padding-right: 3rem !important;
+}
+
+.p-b-lg {
+  padding-bottom: 3rem !important;
+}
+
+.p-l-lg {
+  padding-left: 3rem !important;
+}
+
+.p-x-lg {
+  padding-right: 3rem !important;
+  padding-left: 3rem !important;
+}
+
+.p-y-lg {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+
+.p-a-md {
+  padding: 1.5rem !important;
+}
+
+.p-t-md {
+  padding-top: 1.5rem !important;
+}
+
+.p-r-md {
+  padding-right: 1.5rem !important;
+}
+
+.p-b-md {
+  padding-bottom: 1.5rem !important;
+}
+
+.p-l-md {
+  padding-left: 1.5rem !important;
+}
+
+.p-x-md {
+  padding-right: 1.5rem !important;
+  padding-left: 1.5rem !important;
+}
+
+.p-y-md {
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
+}
+
+.p-a-sm {
+  padding: 0.5rem !important;
+}
+
+.p-t-sm {
+  padding-top: 0.5rem !important;
+}
+
+.p-r-sm {
+  padding-right: 0.5rem !important;
+}
+
+.p-b-sm {
+  padding-bottom: 0.5rem !important;
+}
+
+.p-l-sm {
+  padding-left: 0.5rem !important;
+}
+
+.p-x-sm {
+  padding-right: 0.5rem !important;
+  padding-left: 0.5rem !important;
+}
+
+.p-y-sm {
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+}
+
+.p-a-xs {
+  padding: 0.25rem !important;
+}
+
+.p-t-xs {
+  padding-top: 0.25rem !important;
+}
+
+.p-r-xs {
+  padding-right: 0.25rem !important;
+}
+
+.p-b-xs {
+  padding-bottom: 0.25rem !important;
+}
+
+.p-l-xs {
+  padding-left: 0.25rem !important;
+}
+
+.p-x-xs {
+  padding-right: 0.25rem !important;
+  padding-left: 0.25rem !important;
+}
+
+.p-y-xs {
+  padding-top: 0.25rem !important;
+  padding-bottom: 0.25rem !important;
+}
+
+.padding {
+  padding: 1.5rem 1.5rem;
+}
+
+.margin {
+  margin-bottom: 1.5rem;
+}
+
+.padding-out {
+  margin: -1.5rem -1.5rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-muted {
+  color: inherit;
+  opacity: 0.4;
+}
+
+.text-u-c {
+  text-transform: uppercase;
+}
+
+.text-l-t {
+  text-decoration: line-through;
+}
+
+.text-u-l {
+  text-decoration: underline;
+}
+
+.text-ellipsis {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.text-shadow {
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.text-xs {
+  font-size: 0.75rem;
+}
+
+.text-sm {
+  font-size: 0.8rem;
+}
+
+.text-md {
+  font-size: 1.125rem;
+}
+
+.text-lg {
+  font-size: 1.5rem;
+}
+
+._100 {
+    font-weight: 100;
+}
+
+._200 {
+    font-weight: 200;
+}
+
+._300 {
+    font-weight: 300;
+}
+
+._400 {
+    font-weight: 400;
+}
+
+._500 {
+    font-weight: 500;
+}
+
+._600 {
+    font-weight: 600;
+}
+
+._700 {
+    font-weight: 700;
+}
+
+._800 {
+    font-weight: 800;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-list-item {
+  font-size: 32rpx !important;
+}
+
+.text-link {
+  color: #5c89e4;
+}

@@ -1,0 +1,31 @@
+.order-list {
+  .at-card {
+    padding: 18px;
+  }
+
+  .at-card-header {
+    border-bottom-width: 0;
+    padding-bottom: 0;
+  }
+
+  .at-list__item {
+    padding: 16px 4px;
+
+    .at-list__item-content {
+      overflow: inherit;
+    }
+
+    .at-list__item-extra {
+      -webkit-flex:0 0 0rpx;
+      -ms-flex:0 0 0rpx;
+      flex:0 0 0rpx;
+    }
+
+    .item-extra__info {
+      padding-right: 5rpx;
+      color: inherit;
+      font-size: 1.12rem;
+      font-weight: bold;
+    }
+  }
+}
